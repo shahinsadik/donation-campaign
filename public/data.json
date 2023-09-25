@@ -1,0 +1,136 @@
+[
+    {
+        "id": 1,
+        "Picture": "https://i.ibb.co/BzYKMNZ/Rectangle-4284.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "#aec8ff",
+        "Card_bg": "#d9e5ff",
+        "Text_button_bg": "#0052ff",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Price": 199
+    },
+    {
+        "id": 2,
+        "Picture": "https://i.ibb.co/VL08yCx/Rectangle-4284-1.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "#ffc3c5",
+        "Card_bg": "#ffe3e4",
+        "Text_button_bg": "#ff444a",
+        "Description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "Price": 295
+    },
+    {
+        "id": 3,
+        "Picture": "https://img.freepik.com/premium-photo/poor-beggar-boy-sitting-street_768733-2314.jpg",
+        "Title": "Product 7",
+        "Category": "Clothing",
+        "Category_bg": "#d4ecc1",
+        "Card_bg": "#ebf6e2",
+        "Text_button_bg": "#83c74e",
+        "Description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.",
+        "Price": 219
+    },
+    {
+        "id": 4,
+        "Picture": "https://i.ibb.co/LgZL64W/Rectangle-4284-5.png",
+        "Title": "Better food",
+        "Category": "Food",
+        "Category_bg": "#fdd2c4",
+        "Card_bg": "#feeae3",
+        "Text_button_bg": "#f87147",
+        "Description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "Price": 129
+    },
+    {
+        "id": 5,
+        "Picture": "https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "#aec8ff",
+        "Card_bg": "#d9e5ff",
+        "Text_button_bg": "#0052ff",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Price": 152
+    },
+    {
+        "id": 6,
+        "Picture": "https://images.pexels.com/photos/3755511/pexels-photo-3755511.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "#ffc3c5",
+        "Card_bg": "#ffe3e4",
+        "Text_button_bg": "#ff444a",
+        "Description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "Price": 245
+    },
+    
+    {
+        "id": 7,
+        "Picture": "https://i.ibb.co/tztDqTf/Rectangle-4284-2.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "#d4ecc1",
+        "Card_bg": "#ebf6e2",
+        "Text_button_bg": "#83c74e",
+        "Description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.",
+        "Price": 265
+    },
+    {
+        "id": 8,
+        "Picture": "https://images.yourstory.com/cs/2/bd251c60-2d6a-11e9-aa97-9329348d4c3e/yourstory-feeding-india-children1562659504962.png",
+        "Title": "Better",
+        "Category": "Food",
+        "Category_bg": "#fdd2c4",
+        "Card_bg": "#feeae3",
+        "Text_button_bg": "#f87147",
+        "Description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "Price": 175
+    },
+    {
+        "id": 9,
+        "Picture": "https://img.freepik.com/free-photo/medical-banner-with-doctor-working-laptop_23-2149611211.jpg",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "Category_bg": "#aec8ff",
+        "Card_bg": "#d9e5ff",
+        "Text_button_bg": "#0052ff",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Price": 136
+    },
+    {
+        "id": 10,
+        "Picture": "https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg",
+        "Title": "Good education",
+        "Category": "Education",
+        "Category_bg": "#ffc3c5",
+        "Card_bg": "#ffe3e4",
+        "Text_button_bg": "#ff444a",
+        "Description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "Price": 524
+    },
+    {
+        "id": 11,
+        "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0e-grejWXcHYc606h1eiUGouF0EIWb2wH3aMl2BFK0pfMIHlelzgZ6VWZ9TmExoUOq10&usqp=CAU",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "Category_bg": "#d4ecc1",
+        "Card_bg": "#ebf6e2",
+        "Text_button_bg": "#83c74e",
+        "Description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.",
+        "Price": 758
+    }, 
+    {
+        "id": 12,
+        "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQvQNuOweUDZrRBUScIdoj22S82cnuK7Btg&usqp=CAU",
+        "Title": "Better",
+        "Category": "Food",
+        "Category_bg": "#fdd2c4",
+        "Card_bg": "#feeae3",
+        "Text_button_bg": "#f87147",
+        "Description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "Price": 458
+    }
+    
+]
