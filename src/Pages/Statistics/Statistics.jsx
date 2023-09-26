@@ -73,13 +73,13 @@ const Statistics = () => {
         )}
       </div>
           </div>
-          <div className='bg-slate-500 lg:flex gap-10 justify-center items-center'>
+          <div className='bg-slate-500 p-2 lg:flex gap-5 lg:gap-10 justify-center items-center'>
             <div className='flex gap-2 justify-center items-center'>
-              <h3 className='font-semibold'>Your Donation</h3>
+              <h3 className=' font-bold'>Your Donation</h3>
               <h6 className='p-1 w-20 font-semibold bg-[#00C49F]'></h6>
             </div>
             <div className='flex gap-2 justify-center items-center'>
-              <h3 className='font-semibold'>Total Donation</h3>
+              <h3 className='font-bold'>Total Donation</h3>
               <h6 className='p-1 w-20  bg-[#FF444A]'></h6>
             </div>
           </div>
