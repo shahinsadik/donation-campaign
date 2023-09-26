@@ -14,12 +14,12 @@ const Donation = () => {
     } 
     else {
       setNotFound("No Data Found");
-    // console.log("No data");
+    
     }
   }, []);
 
   return (
-    <div> { notFound ? <p>{notFound}</p>
+    <div> { notFound ? <div className="flex justify-center items-center h-screen"><h1 className="text-4xl font-bold">{notFound}</h1></div>
        : 
         <div>
           <div className="grid mt-10 lg:grid-cols-2 grid-cols-1 gap-5">
