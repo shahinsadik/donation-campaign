@@ -25,7 +25,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div  className="bg-cover to-65% md::hidden  relative -z-10 -mt-72  h-[400px] opacity-10"
+      <div  className="bg-cover to-65%   relative -z-10 -mt-72  h-[400px] opacity-5"
         style={{
           backgroundImage:
             "url(./banner.png)",
