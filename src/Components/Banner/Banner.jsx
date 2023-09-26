@@ -4,7 +4,7 @@ import {useState} from "react";
 const Banner = ({ handleSearch }) => {
   const [inputValue, setInputValue] = useState('');
 
-  const handleChange = (e) => {
+  const handleInputChange = (e) => {
     setInputValue(e.target.value); 
   };
 
@@ -24,7 +24,7 @@ const Banner = ({ handleSearch }) => {
             <fieldset className=" form-control ">
               <div className="relative lg:mx-20">
                 <input id="inputField"
-                 onChange={handleChange}
+                 onChange={handleInputChange}
                   type="text"
                   placeholder="Search here"
                   className="input input-bordered w-full text-gray-700"
@@ -40,7 +40,7 @@ const Banner = ({ handleSearch }) => {
       <div  className="bg-cover to-65%   relative -z-10 -mt-72  h-[400px] opacity-5"
         style={{
           backgroundImage:
-            "url(./banner.png)",
+            "url(../banner.png)",
         }}>
         
       </div>

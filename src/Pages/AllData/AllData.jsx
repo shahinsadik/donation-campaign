@@ -3,9 +3,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AllDonationData = ({ allData, searchTerm }) => {
+const AllDonationData = ({ allData, searchData }) => {
   const filteredData = allData.filter((data) => {
-    return data.Category.toLowerCase().includes(searchTerm.toLowerCase());
+    return data.Category.toLowerCase().includes(searchData.toLowerCase());
   });
 
   return (

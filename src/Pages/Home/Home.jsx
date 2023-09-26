@@ -5,16 +5,16 @@ import AllDonationData from '../AllData/AllData';
 
 const Home = () => {
   const allData = useLoaderData();
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchData, setSearchData] = useState('');
 
   const handleSearch = (inputValue) => {
-    setSearchTerm(inputValue);
+    setSearchData(inputValue);
   };
 
   return (
     <div>
       <Banner handleSearch={handleSearch} />
-      <AllDonationData allData={allData} searchTerm={searchTerm} />
+      <AllDonationData allData={allData} searchData={searchData} />
     </div>
   );
 };
