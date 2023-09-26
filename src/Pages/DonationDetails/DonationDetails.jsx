@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useLoaderData} from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import swal from 'sweetalert';
 const DonationDetails = () => {
     const [detail, setDetail]= useState({})
     const {id}= useParams()
@@ -12,14 +13,23 @@ const DonationDetails = () => {
         if(!donationAmount){
             donationAmountAdded.push(detail)
             localStorage.setItem("donation", JSON.stringify(donationAmountAdded))
-            alert("Your Donation is Successfully")
+            swal("Thanks!", "Your donation is successfully!", "success");
         }
         else{
-            donationAmountAdded.push(...donationAmount, detail)
-            localStorage.setItem("donation", JSON.stringify(donationAmountAdded))
-            alert("Your Donation is Successfully")
+            const isExist=donationAmount.find(amount=>amount.id==id)
+            if(!isExist){
+
+                donationAmountAdded.push(...donationAmount, detail)
+                localStorage.setItem("donation", JSON.stringify(donationAmountAdded))
+                swal("Thanks!", "Your donation is successfully!", "success")
+            }
+            else{
+                sweetAlert("Already Donated", "Please try another donation!", "error");
+            }
+            // console.log(isExist);
+
         }
-        console.log(detail);
+        // console.log(detail);
 
     }
 
@@ -27,7 +37,7 @@ const DonationDetails = () => {
     useEffect(()=>{
        const findDetails= details?.find(detail=> detail.id == id)
        setDetail(findDetails)
-        console.log(findDetails);
+        // console.log(findDetails);
     },[id, details])
     return (
         <div>
@@ -41,9 +51,9 @@ const DonationDetails = () => {
                 <h2 className='text-4xl font-bold mb-5'>{detail.Title}</h2>
                 <p>{detail.Description}</p>
                 </div>
-                <div className='lg:h-24 rounded-b-lg lg:bg-black lg:bg-opacity-40 hover:bg-opacity-60 lg:-mt-64 -mt-52   lg:relative w-full lg:flex lg:items-center '>
+                <div className='lg:h-24 rounded-b-lg lg:bg-black lg:bg-opacity-40 hover:bg-opacity-60 lg:-mt-64 -mt-52 md:ml-2  lg:relative w-full lg:flex lg:items-center '>
                     <div className=' '>
-                    <Link onClick={handleDonation} className="lg:ml-5 text-xl font-semibold rounded-md p-2 text-white bg-[#ff444a]">Donate: $ {detail.Price}</Link>
+                    <Link onClick={handleDonation} style={{backgroundColor:detail.Text_button_bg}} className="lg:ml-5 text-xl font-semibold rounded-md p-2 text-white">Donate: $ {detail.Price}</Link>
                     </div>
                     </div>
             </div>

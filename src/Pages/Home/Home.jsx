@@ -6,12 +6,12 @@ import AllDonationData from '../AllData/AllData';
 
 
 const Home = () => {
-    const datas= useLoaderData()
-// console.log(datas);
+    const allData= useLoaderData()
+
     return (
         <div>
             <Banner></Banner>   
-            <AllDonationData datas={datas}></AllDonationData>
+            <AllDonationData allData={allData}></AllDonationData>
             
             
         </div>

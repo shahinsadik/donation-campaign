@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import { Link } from "react-router-dom";
-const AllDonationData = ({ datas }) => {
-  console.log(datas);
+const AllDonationData = ({ allData }) => {
+  
 
   return (
     <div className="my-10">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 rounded-lg">
-        {datas.map((data) => (
+        {allData.map((data) => (
           <Link to={`/donation-details/${data.id}`} key={data.id}>
             <div
               style={{ backgroundColor: data.Card_bg }}
@@ -28,7 +29,7 @@ const AllDonationData = ({ datas }) => {
                   {data.Category}
                 </span>
                 <h2
-                  style={{ color: data.Text_button_bg }}
+                  style={{ color:data.Text_button_bg }}
                   className="text-xl my-1 font-semibold ">
                   {data.Title}
                 </h2>
