@@ -12,7 +12,7 @@ A brief description of what this project does and who it's for
 - Display real-time progress toward fundraising goals.
 
 ## Link problem:
-Deceptive site ahead
+
 Attackers on donationcampaignss.netlify.app may trick you into doing something dangerous like installing software or revealing your personal information (for example, passwords, phone numbers, or credit cards).
 
 ## 🔗 Links

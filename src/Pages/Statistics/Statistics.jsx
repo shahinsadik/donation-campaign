@@ -33,7 +33,7 @@ const Statistics = () => {
             <PieChart
               series={[
                 {
-                  outerRadius: 160,
+                  outerRadius: 110,
                   data,
                   arcLabel: getArcLabel,
                 },
@@ -44,17 +44,17 @@ const Statistics = () => {
                   fontSize: 20,
                 },
               }}
-              width={600}
-              height={400}
+              width={370}
+              height={250}
             />
           </div>
           </div>
         ) : (
           <div>
-            <PieChart
+            <PieChart className='flex justify-center items-center'
               series={[
                 {
-                  outerRadius: 160,
+                  outerRadius: 120,
                   data,
                   arcLabel: getArcLabel,
                 },
@@ -65,8 +65,8 @@ const Statistics = () => {
                   fontSize: 20,
                 },
               }}
-              width={500}
-              height={400}
+              width={370}
+              height={250}
             />
             
           </div>
