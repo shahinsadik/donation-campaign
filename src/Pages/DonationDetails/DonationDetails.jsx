@@ -47,15 +47,16 @@ const DonationDetails = () => {
                     <img src={detail.Picture} className='  w-full rounded-lg' alt="" />
                     
                 </div>
+                <div className='lg:h-20 rounded-b-lg lg:bg-black lg:bg-opacity-40 hover:bg-opacity-60  lg:-mt-20 -mt-16 relative w-full lg:flex lg:items-center '>
+                    <div className=' '>
+                    <Link onClick={handleDonation} style={{backgroundColor:detail.Text_button_bg}} className="lg:ml-5 ml-2 lg:text-xl font-semibold rounded-md lg:p-2 p-1 text-white">Donate: $ {detail.Price}</Link>
+                    </div>
+                    </div>
                 <div className='mt-20'>
                 <h2 className='text-4xl font-bold mb-5'>{detail.Title}</h2>
                 <p>{detail.Description}</p>
                 </div>
-                <div className='lg:h-24 rounded-b-lg lg:bg-black lg:bg-opacity-40 hover:bg-opacity-60 lg:-mt-64 -mt-52  lg:relative w-full lg:flex lg:items-center '>
-                    <div className=' '>
-                    <Link onClick={handleDonation} style={{backgroundColor:detail.Text_button_bg}} className="lg:ml-5 text-xl font-semibold rounded-md p-2 text-white">Donate: $ {detail.Price}</Link>
-                    </div>
-                    </div>
+                
             </div>
 
         </div>
